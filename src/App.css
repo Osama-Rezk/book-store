@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-img {
+  width: 120px !important;
+  height: 120px;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.detail-btn {
+  margin-left: auto;
+}
+
+.card-content {
+  width: 100%;
+}
+.break-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #a9a9a9;
+}
+.team-container {
+  display: flex;
+  align-items: center;
+}
+.allteams-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.game-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.game-tiltes-container {
+  display: flex;
+  flex-direction: column;
+}
+.player-container {
+  margin-left: 6px;
+}
+.player-description {
+  display: flex;
+  flex-direction: column;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+.main-layout {
+  display: flex;
+  flex-direction: row;
+}
+.mar-5-f-r {
+  margin: 0px 10px 0px 10px;
+}
+.flex-row-aic {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.beatiful-select {
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+label {
+  color: #aaaaaa;
+  font-size: 15px;
+}
+
+.beatiful-text-area {
+  border-radius: 5px;
+  padding: 5px;
+}
